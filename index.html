@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>3D Models</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style/style.css"></link>
+    <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.js"></script>
+    <script nomodule src="https://unpkg.com/@google/model-viewer/dist/model-viewer-legacy.js"></script>
+    <!-- 💁 OPTIONAL: Intersection Observer polyfill for better performance in Safari and IE11 -->
+    <script src="https://unpkg.com/intersection-observer@0.5.1/intersection-observer.js"></script>
+    <!-- 💁 OPTIONAL: Fullscreen polyfill is needed to fully support AR features -->
+    <script src="https://unpkg.com/fullscreen-polyfill@1.0.2/dist/fullscreen.polyfill.js"></script>
+</head>
+<body>
+
+    <div id="overlay">
+        <div class="welcome">WELCOME TO</div>
+        <div class="title">3D MODELS FOR XR</div>
+        <div align="center" class="task_text">
+            <p>
+                <br><br>
+                <b>GLB:​</b>
+                <ul>
+                    <li>Wow-factor virtual events (VR Town-Halls)​</li>
+                    <li>Exploring virtual Showcases like Robotics / Quantum​</li>
+                    <li>3D Product / Architecture Reviews​</li>
+                    <li>Immersive Trainings in 3D Simulations​</li>
+                    <li>Whiteboarding / Design Thinking in VR ​</li>
+                    <li>Virtual Coffee Break / Social Hour / Happy Hour</li>
+                </ul>
+            </p>
+            <div class="footer-bottom">
+                <br><br>
+                <hr class="solid">
+                <div class="footer-bottom-text">
+                    &copy; 2021 | Accenture. All Rights Reserved.
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="altspace_overlay">
+        <div class="welcome">MICROSOFT</div>
+        <div class="title2">ALTSPACE VR</div>
+        <div align="center" class="task_text">
+            <p>
+                <b>Immerse your audience in a simulated VR world with unique collaboration features​</b>
+                <br>
+                <br>​Accenture & Microsoft partnered to create a virtual environment for corporate events & trainings​.
+                <br><br>
+                <b>Explore the virtual floor for use cases like:​</b>
+                <ul>
+                    <li>Wow-factor virtual events (VR Town-Halls)​</li>
+                    <li>Exploring virtual Showcases like Robotics / Quantum​</li>
+                    <li>3D Product / Architecture Reviews​</li>
+                    <li>Immersive Trainings in 3D Simulations​</li>
+                    <li>Whiteboarding / Design Thinking in VR ​</li>
+                    <li>Virtual Coffee Break / Social Hour / Happy Hour</li>
+                </ul>
+
+                <b>Get Altspace VR:</b>​ <a href="https://altvr.com/getaltspacevr/">App</a>
+                <br><br>
+
+                <b>Enter the below Room Code into your Altspace app:​</b>
+                <ul>
+                    <li><a href="https://account.altvr.com/events/1730570842661716329">NZU930</a></li>
+                </ul>
+            </p>
+
+            <div class="imgPreview">
+                <img src="images/altspace1.png" width="100%">
+                <br><br>
+            </div>
+
+            <video controls width="100%">
+                <source src="/media/Altspace_XR_Immersive_Session_(Source).mp4"
+                        type="video/mp4">
+                Sorry, your browser doesn't support embedded videos.
+            </video>
+
+            <div id="buttons-back-info">
+                <div class="bottomButtons">
+                    <br><br>
+                    <button class="butBack" onclick="back2ModelOverlay()">Back</button>
+                    <button class="butBack" onclick="back2ModelOverlay()">Test</button>
+                    <br><br>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <div class="footer-bottom-contact">
+                    <hor>
+                        <br>
+                        <li2><img src="images/Acc_GT_Dimensional_Purple_RGB_REV.svg" width="20%"></li2>
+                        <li2><a href="https://www.accenture.com/us-en/about/company-index">ABOUT US</a></li2>
+                        <li2><a href="https://www.accenture.com/us-en/about/contact-us">CONTACT US</a></li2>
+                        <li2><a href="https://www.accenture.com/us-en/careers">CAREERS</a></li2>
+                        <li2><a href="https://www.accenture.com/us-en/about/location-index">LOCATIONS</a></li2>
+                    </hor>
+                </div >
+                <br><br>
+                <hr class="solid">
+                <div class="footer-bottom-text">
+                    <!-- <hor>
+                        <li2><a href="https://www.accenture.com/us-en/about/privacy-policy">Privacy Statement</a></li2>
+                        <li2><a href="https://www.accenture.com/us-en/support/terms-of-use">Terms & Conditions</a></li2>
+                        <li2><a href="https://www.accenture.com/us-en/support/company-cookies-similar-technology">Cookie Policy</a></li2>
+                        <li2><a href="https://www.accenture.com/us-en/support/accessibility-statement">Accessibility Statement</a></li2>
+                        <li2><a href="https://www.accenture.com/us-en/about/site-map">Sitemap</a></li2>
+                    </hor> -->
+                    &copy; 2021 | Accenture. All Rights Reserved.
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

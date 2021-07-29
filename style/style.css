@@ -1,0 +1,304 @@
+@font-face {
+    font-family: 'Graphik';
+    src: url('../fonts/Graphik-Medium.woff2') format('woff2'),
+        url('../fonts/Graphik-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Graphik';
+    src: url('../fonts/Graphik-Black.woff2') format('woff2'),
+        url('../fonts/Graphik-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+}
+
+body{
+    font-family: 'Graphik', 'Calibri';
+    font-weight: 500;
+    background-color: #ffffff;
+}
+
+.welcome{
+    font-family: 'Graphik', 'Calibri';
+    font-weight: 900;
+    font-size: 28px;
+    padding-top: 50px;
+    padding-left: 30px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    line-height: 0.8;
+}
+
+.title{
+    font-family: 'Graphik', 'Calibri';
+    font-weight: 900;
+    font-size: 50px;
+    padding-left: 30px;
+    padding-top: 0px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    line-height: 0.8;
+}
+
+.title2{
+    font-family: 'Graphik', 'Calibri';
+    font-weight: 900;
+    font-size: 40px;
+    padding-left: 30px;
+    padding-top: 0px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    line-height: 0.8;
+}
+
+.task_text{
+    font-family: 'Graphik', 'Calibri';
+    font-weight: 500;
+    font-size: 20px;
+    text-align: left;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 60px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    line-height: 1;
+    
+}
+
+.viewer_container{
+    width: 100%;
+    height: 300px;
+    background-color: #ff0000;
+}
+
+.imgPreview{
+    width: 90%;
+    height: 50%;
+    position: relative;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+.imgSimple{
+    width: 90%;
+    height: 50%;
+    position: absolute;
+    text-align: center;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+.bottom{
+    position: absolute;
+    bottom: 50px;
+    text-align: center;
+    width: 100%;
+}
+
+.bottomButtons{
+    position: relative;
+    bottom: 0px;
+    text-align: center;
+    width: 100%;
+}
+
+.footer-bottom{
+    position: relative;
+    background: #000000;
+    color: #d3d3d3;
+    height: 85px;
+    width: 100%;
+}
+
+.footer-bottom-contact{
+    background: #000000;
+    color: #d3d3d3;
+    height: 12px;
+    width: 100%;
+    text-align: center;
+    font-size: 12px;
+    bottom: 0;
+}
+
+.footer-bottom-text{
+    position: absolute;
+    background: #000000;
+    color: #d3d3d3;
+    height: 12px;
+    width: 100%;
+    text-align: right;
+    font-size: 10px;
+    bottom: 0;
+}
+
+.butTask{
+    font-family: 'Graphik', 'Calibri';
+    font-weight: 900;
+    background-color: #01d16d;
+    color: #ffffff;
+    border: none;
+    text-align: center;
+    display: inline-block;
+    width: 65%;
+    margin: 4px 2px;
+    padding: 9px 20px;
+    font-size: 16px;
+    border-radius: 30px;
+    box-shadow: 0 3px 6px 0 rgba(0,0,0,0.2), 0 3px 6px 0 rgba(0,0,0,0.19);
+}
+
+#base_overlay{
+    font-family: 'Graphik', 'Calibri';
+    font-weight: 500;
+    position: fixed;
+    display: block;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 2;
+    background-color: #ffffffff;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #000000;
+}
+
+#overlay{
+    font-family: 'Graphik', 'Calibri';
+    font-weight: 500;
+    position: fixed;
+    display: block;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 2;
+    background-color: #ffffffff;
+    background-image: url(../images/Acc_GT_Dimensional_RGB.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #000000;
+}
+
+#intro_overlay{
+    font-family: 'Graphik', 'Calibri';
+    font-weight: 500;
+    position: fixed;
+    display: block;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 3;
+}
+
+#steps_overlay{
+    font-family: 'Graphik', 'Calibri';
+    font-weight: 500;
+    position: fixed;
+    display: block;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 3;
+    background-color: rgba(255,255,255,0.6);
+    visibility: hidden;
+} 
+
+#footer{
+    background: #000000;
+    color: #d3d3d3;
+    height: 200px;
+    font-family: 'Graphik', 'Calibri';
+    font-weight: 500;
+    position: fixed;
+    display: block;
+    width: 100%;
+    bottom: 100px;
+    z-index: 3;
+    visibility: hidden;
+}
+
+#back_container{
+    font-family: 'Graphik', 'Calibri';
+    font-weight: 500;
+    position: fixed;
+    display: block;
+    width: 100%;
+    bottom: 20px;
+    z-index: 3;
+    visibility: hidden;
+}
+
+model-viewer {
+  width: 100%;
+}
+
+canvas {
+    width: 100%;
+}
+
+#annotation{
+    background-color: #BFC9CA;
+    position: absolute;
+    transform: translate(-35px, 20px);
+    border-radius: 10px;
+    padding: 10px;
+}
+
+#annotationfloor{
+    background-color: #BFC9CA;
+    position: absolute;
+    transform: translate(-20px, 20px);
+    border-radius: 10px;
+    padding: 10px;
+}
+
+hor {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li2 {
+    float: left;
+}
+  
+li2 a {
+    display: block;
+    margin-left: 10px;
+    color: #d3d3d3;
+    text-align: center;
+    text-decoration: underline;
+}
+
+li2 a2 {
+    display: block;
+    margin-left: 10px;
+    color: #d3d3d3;
+    text-align: center;
+    text-decoration: underline;
+}
+
+hr.solid {
+    border-top: 0.5px solid #d3d3d3;
+}
