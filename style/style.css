@@ -223,19 +223,6 @@ body{
     visibility: hidden;
 } 
 
-#footer{
-    background: #000000;
-    color: #d3d3d3;
-    height: 200px;
-    font-family: 'Graphik', 'Calibri';
-    font-weight: 500;
-    position: fixed;
-    display: block;
-    width: 100%;
-    bottom: 100px;
-    z-index: 3;
-    visibility: hidden;
-}
 
 #back_container{
     font-family: 'Graphik', 'Calibri';
@@ -270,35 +257,4 @@ canvas {
     transform: translate(-20px, 20px);
     border-radius: 10px;
     padding: 10px;
-}
-
-hor {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-}
-
-li2 {
-    float: left;
-}
-  
-li2 a {
-    display: block;
-    margin-left: 10px;
-    color: #d3d3d3;
-    text-align: center;
-    text-decoration: underline;
-}
-
-li2 a2 {
-    display: block;
-    margin-left: 10px;
-    color: #d3d3d3;
-    text-align: center;
-    text-decoration: underline;
-}
-
-hr.solid {
-    border-top: 0.5px solid #d3d3d3;
 }
